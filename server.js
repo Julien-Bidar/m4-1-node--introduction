@@ -94,6 +94,8 @@ express()
       } else if (text === "No" && jokeMode) {
         jokeMode = false;
         botMsg = "Ok bye then!";
+      } else {
+        jokeMode = false;
       }
       console.log(jokeMode);
       return botMsg;
