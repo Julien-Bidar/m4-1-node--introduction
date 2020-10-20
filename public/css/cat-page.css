@@ -1,8 +1,8 @@
-@import '_mini-reset.css';
-@import '_chat-app.css';
+@import "_mini-reset.css";
+@import "_chat-app.css";
 
 body {
-  background: url(/images/cat_bg.jpg) no-repeat left center;
+  background: url(../images/cat_bg.jpg) no-repeat left center;
   background-size: cover;
   height: 100vh;
   display: flex;
